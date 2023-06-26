@@ -254,8 +254,11 @@ figcaption a {
 
 .popular {
     background-color: var(--color2);
-    padding: 2rem;
+    color: white;
+    padding: 1rem 0 2rem 0;
 }
+
+
 
 #popular-prints {
     max-width: 1200px;
@@ -325,6 +328,13 @@ footer address {
     address {
         flex-basis: 49.5%;
     }
+#popular-prints li:last-child {
+    flex-basis: 100%;
+}
+#popular-prints li:last-child figure img {
+    object-position: 0 -350px;
+}
+
     /* turn off object position, inherit object-fit: cover */
     figure img {
         object-position: 0;
@@ -366,6 +376,8 @@ footer address {
         color: var(--color2);
         background-color: transparent;
     }
+
+    
 }
 
 @media (min-width: 800px) {
