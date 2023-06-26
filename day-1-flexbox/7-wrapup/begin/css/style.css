@@ -385,8 +385,12 @@ footer address {
         margin-left: 100px;
     }
     section li,
-    .social {
+    .social,
+    #popular-prints li:last-child {
         flex-basis: 32.5%;
+    }
+    #popular-prints li:last-child figure img {
+        object-position: 0;
     }
     address {
         flex-basis: 65.5%;
