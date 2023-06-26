@@ -250,6 +250,17 @@ figcaption a {
     display: block;
 }
 
+/*popular prints styles*/
+
+.popular {
+    background-color: var(--color2);
+    padding: 2rem;
+}
+
+#popular-prints {
+    max-width: 1200px;
+}
+
 
 /* footer styles */
 
